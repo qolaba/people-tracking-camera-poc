@@ -1,6 +1,6 @@
 # Real-Time Crowd Tracker
 
-This project is designed for real-time crowd tracking using multiple video streams, leveraging the YOLO (You Only Look Once) deep learning model for object detection. It effectively manages concurrent video streams to monitor and analyze crowds in different environments.
+This project is designed for real-time crowd tracking using multiple video streams, leveraging deep learning model for object detection. It effectively manages concurrent video streams to monitor and analyze crowds in different environments.
 
 ## Features
 - Real-time tracking of crowds from multiple video sources, including downloaded YouTube videos and live webcam feeds.
@@ -43,7 +43,7 @@ To track crowds from specific video sources, modify the `video_url` variable in 
 
 ## Example Images
 
-Below are some example images showcasing the crowd tracking results using the YOLOv8 model:
+Below are some example images showcasing the crowd tracking results:
 
 Crowd Tracking Example 1
 
@@ -57,7 +57,7 @@ Crowd Tracking Example 2
 
 *Example of crowd tracking in an urban setting.*
 
-These images illustrate the effectiveness of the YOLOv8 model in accurately detecting and tracking individuals in a crowd.
+These images illustrate the effectiveness in accurately detecting and tracking individuals in a crowd.
 
 
 ## Contribution
