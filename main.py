@@ -59,8 +59,9 @@ def run_tracker_in_thread(filename, model, file_index):
         logging.error(f"Error in tracking thread {file_index}: {e}")  # Log any errors during tracking
 
 def main():
-    video_url = "https://www.youtube.com/watch?v=ORrrKXGx2SE"  # URL of the YouTube video to download
+    video_url = "https://www.youtube.com/watch?v=7V6hq5dM5oI"  # URL of the YouTube video to download
     file_name = download_youtube_video(video_url)  # Download the video
+    # file_name = "people.mp4"  # Download the video
     if file_name:
         model = YOLO('yolov8n.pt')  # Load the YOLOv8 model
         model2 = YOLO('yolov8n-seg.pt')  # Load another YOLOv8 model variant

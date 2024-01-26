@@ -48,13 +48,13 @@ Below are some example images showcasing the crowd tracking results using the YO
 
 Crowd Tracking Example 1
 
-![Alt text](image.png)
+![Alt text](image-2.png)
 
 *Example of crowd tracking during an event.*
 
 Crowd Tracking Example 2
 
-![Alt text](image-1.png)
+![Alt text](image-3.png)
 
 *Example of crowd tracking in an urban setting.*
 
