@@ -4,7 +4,6 @@ This project is designed for real-time crowd tracking using multiple video strea
 
 ## Features
 - Real-time tracking of crowds from multiple video sources, including downloaded YouTube videos and live webcam feeds.
-- Utilization of YOLOv8 model for accurate crowd detection and tracking.
 - Concurrent handling of video streams using multi-threading.
 
 ## Prerequisites
@@ -12,7 +11,7 @@ Before using this project, ensure you have the following installed:
 - Python 3.6 or later.
 - OpenCV (`opencv-python`) for video processing.
 - `pytube` for downloading videos from YouTube.
-- `ultralytics` YOLO library for object detection.
+- `ultralytics` library for object detection.
 
 ## Installation
 
@@ -60,9 +59,6 @@ Crowd Tracking Example 2
 
 These images illustrate the effectiveness of the YOLOv8 model in accurately detecting and tracking individuals in a crowd.
 
-## About YOLO (You Only Look Once)
-
-YOLO is a cutting-edge real-time object detection system renowned for its speed and precision. It approaches object detection as a regression problem, identifying bounding boxes and class probabilities. YOLOv8, utilized in this project, is the latest version in the YOLO series, offering enhanced speed and detection accuracy.
 
 ## Contribution
 
