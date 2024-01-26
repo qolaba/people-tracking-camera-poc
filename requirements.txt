@@ -1,0 +1,3 @@
+pytube
+ultralytics
+opencv-python
